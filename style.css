@@ -42,29 +42,73 @@ margin-right: 0px;
 }
 .banner-part{
     display: flex;
+    height: 550px;
 }
 .banner-partLeft{
-width:50%;  
+    width:50%;  
 }
 .banner-partRight{
+    height: 550px;
     width: 50%;
     }
 .banner-partRight img{
         width: 100%;
     }
 .banner-text{
- font-family: 'Poppins', sans-serif;
- font-weight: 700;
- font-size:60px;
- color: #1F2E4B;
- line-height: 80px;
- font-style: normal;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size:60px;
+   color: #1F2E4B;
+   line-height: 80px;
+   font-style: normal;
 }
 .bannerLeftTitle{
-margin: 120px 0 0 160px;
+    margin: 100px 0 0 160px;
 }
 .banner-description{
     font-family: 'Poppins', sans-serif;
     margin-top: 30px;
     font-size: 20px;
+}
+.banner-service {
+    display:flex;
+    margin-top: 20px;
+    height: 100px;
+}
+.spa{
+    width: 103px;
+    height: 100%;
+    background-color: #F9D6C1;
+    margin-right: 12px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotel {
+    width: 103px;
+    height: 100%;
+    background-color: #CBE8F8;
+    margin-right: 12px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.breakfast{
+    width: 103px;
+    height: 100%;
+    background-color: #F5D7E1;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roundShape {
+    position: absolute;
+    top: 142px;
+    left: 230px;
+}
+.roundShape img {
+    width: 60%;
 }
