@@ -40,19 +40,19 @@ margin-right: 0px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
-.heroSection{
+.banner-part{
     display: flex;
 }
-.heroSectionLeft{
+.banner-partLeft{
 width:50%;  
 }
-.heroSectionRight{
+.banner-partRight{
     width: 50%;
     }
-    .heroSectionRight img{
+.banner-partRight img{
         width: 100%;
     }
-.hero-text{
+.banner-text{
  font-family: 'Poppins', sans-serif;
  font-weight: 700;
  font-size:60px;
@@ -60,6 +60,11 @@ width:50%;
  line-height: 80px;
  font-style: normal;
 }
-.heroLeftTitle{
+.bannerLeftTitle{
 margin: 120px 0 0 160px;
+}
+.banner-description{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    font-size: 20px;
 }
